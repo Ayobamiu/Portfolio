@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  /* font-family: "Open Sans Condensed", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(33, 33, 34, 0.979);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+}
+h2,p{
+  font-weight: 300;
+}
+p{
+  font-weight: 200;
+}
+.ligth {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+.fa-html5 {
+  color: orangered;
+}
+.fa-react {
+  color: rgb(117, 217, 226);
+}
+.fa-css3 {
+  color: #fff;
+}
+.fa-bootstrap {
+  color: purple;
+}
+.fa-js-square {
+  color: yellow;
+}
+.fa-python {
+  color: blue;
+}
+.bold {
+  font-weight: bold;
+}
+.thin {
+  font-weight: 400;
+}
+.hello {
+  border: solid rgba(9, 9, 10, 0.007);
+  height: 100vh;
+  box-sizing: border-box;
+  color: white;
+  background: url("./image/pexels-mitchell-luo-3694708.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* test-toggle */
+.test-toggle {
+  padding: 0 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.test-toggle li {
+  display: block;
+  margin: 10px 20px;
+  font-size: 1.3rem;
+}
+.test-toggle .toggle {
+  order: 1;
+}
+.test-toggle .item {
+  order: 3;
+  width: 100%;
+  display: none;
+}
+.active .item {
+  display: block;
+}
+@media screen and (min-width: 960px) {
+  .test-toggle {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+  .test-toggle .logo {
+    order: 0;
+    margin-right: auto;
+  }
+  .test-toggle .item {
+    order: 1;
+    position: relative;
+    display: block;
+    width: auto;
+  }
+  .test-toggle .toggle {
+    display: none;
+  }
+}
+/* test-toggle */
+
+.hello .text {
+  margin-top: 80px;
+  font-size: 2rem;
+  text-align: start;
+  text-align: center;
+}
+.featured-portfolio {
+  text-align: center;
+  margin-top: 20px;
+  /* color: white; */
+}
+.featured-portfolio button {
+  padding: 10px 20px;
+  border: solid 1px darkolivegreen;
+  border-radius: 30px;
+  margin: 10px;
+  background-color: darkolivegreen;
+}
+.portfolio-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: start;
+}
+.portfolio-item {
+  flex: 0 1 30%;
+  margin: 20px;
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+}
+.portfolio-item img {
+  width: 100%;
+}
+.portfolio-item p {
+  color: white;
+}
+.portfolio-item i {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-item {
+    flex: 0 1 100%;
+    margin: 20px;
+  }
+}
+.my-resume {
+  background-color: grey;
+}
+.my-resume h1 {
+  text-align: center;
+}
+.resume {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.resume .education,
+.resume .experience {
+  flex: 0 1 40%;
+  margin: 20px;
+}
+@media screen and (max-width: 500px) {
+  .resume .education,
+  .resume .experience {
+    flex: 0 1 100%;
+  }
+}
+.education .list,
+.experience .list {
+  display: flex;
+  flex-direction: column;
+}
+.list .list-item {
+  flex: 0 0 200px;
+  background-color: rgba(33, 33, 34, 0.979);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.list .list-item p {
+  color: white;
+}
+.list .list-item h2,
+.list .list-item .country {
+  color: darkolivegreen;
+}
+.about-me {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.about-me .image,
+.about-me .text {
+  flex: 0 0 30%;
+  margin: 20px;
+}
+.about-me .text h1 {
+  font-size: 3rem;
+  color: white;
+}
+.about-me .text p {
+  font-size: 1.2rem;
+  color: white;
+}
+.about-me .text button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: darkolivegreen solid;
+  background-color: darkolivegreen;
+}
+@media screen and (max-width: 500px) {
+  .about-me .image,
+  .about-me .text {
+    flex: 0 0 100%;
+  }
+}
+.about-me .image img {
+  width: 100%;
+}
+.my-services {
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+}
+
+.my-services h1 {
+  color: white;
+}
+.my-services .white {
+  margin-top: 30px;
+  display: inline-block;
+}
+.my-services .list {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.my-services .list .item {
+  color: darkolivegreen;
+  flex: 0 0 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(33, 33, 34, 0.979);
+  margin: 10px;
+}
+.blogs-on-medium {
+  text-align: center;
+  color: white;
+}
+
+.blogs-on-medium .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.blogs-on-medium .list .item {
+  flex: 0 0 300px;
+  background-color: grey;
+  margin: 20px;
+  min-height: 300px;
+}
+.blogs-on-medium .list .item p {
+  margin-top: 10px;
+}
+
+.foot {
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px;
+}
+.foot a {
+  color: black;
+}
+.social-media a {
+  margin: 10px;
+}

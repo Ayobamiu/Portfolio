@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Ayobami Usman" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./font_awesome/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <div class="hello">
+      <div class="navbar">
+        <ul class="test-toggle">
+          <li class="logo"><a href="#featured-portfolio">Portfolio</a></li>
+          <li class="item"><a href="#my-resume">Resume</a></li>
+          <li class="item"><a href="#about-me">About Me</a></li>
+          <li class="item"><a href="#my-services">What I Do</a></li>
+          <li class="item"><a href="#blogs-on-medium">Blog</a></li>
+          <li class="toggle">
+            <i onclick="doTog()" class="fa fa-bars"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="text">
+        <h1 class="ligth">Hello, I'm</h1>
+        <h1 class="bold">Usman Ayobami</h1>
+        <p>Welcome to my Portfolio</p>
+      </div>
+    </div>
+    <div id="featured-portfolio" class="featured-portfolio">
+      <h1><small class="ligth"> Featured</small> Portfolio</h1>
+      <div class="portfolio-list">
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/video_app/"
+            ><h2>Video App</h2></a
+          >
+          <p>
+            A video Sharing App Built with React in the front-end. Redux for
+            state management. No Robust Backend, just a JS file to store
+            Database as Objects
+          </p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-js-square"></i>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/photo_album/"
+            ><h2>Photo Album</h2></a
+          >
+          <p>
+            A Photo Album built with Django in the Backend, React in the
+            front-end. Design done purely with HTML5 and CSS.
+          </p>
+          <i class="fab fa-python"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js-square"></i>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/lodgeek_web/"
+            ><h2>Lodgeek front-end</h2></a
+          >
+          <p>
+            front-end for a vacation rental service platform with React. Design
+            with Ant-Design and Bootstrap.
+          </p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-js-square"></i>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/real-estate-ground-up/"
+            ><h2>Real Estate Website</h2></a
+          >
+          <p>
+            A real estate platform. front-end with React, Ant-Design, html and
+            css. Backend with Django
+          </p>
+          <i class="fab fa-python"></i>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-bootstrap"></i>
+          <i class="fab fa-js-square"></i>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/Website_Blocker/"
+            ><h2>Website Blocker</h2></a
+          >
+          <p>
+            Increases your productivity by stoping your browser from accessing
+            some distracting website during your busy hours. Built with Python.
+          </p>
+          <i class="fab fa-python"></i>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/Ayobamiu/Webcam-Motion-Detector/"
+            ><h2>Webcam Motion Detector</h2></a
+          >
+          <p>
+            webcam motion Detector that records the time object enters and
+            leaves the scene. Built with Python.
+          </p>
+          <i class="fab fa-python"></i>
+        </div>
+      </div>
+      <button><a href="https://github.com/Ayobamiu">See More &rarr;</a></button>
+    </div>
+    <div id="my-resume" class="my-resume">
+      <h1><small>My</small> Resume</h1>
+      <div class="resume">
+        <div class="education">
+          <h1>Education</h1>
+          <div class="list">
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> 2020</p>
+              <h2 class="title">BSc Petroleum Engineering</h2>
+              <p class="school">University of Ibadan</p>
+              <p class="country">Nigeria</p>
+            </div>
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> 2019</p>
+              <h2 class="title">Introduction to Programming</h2>
+              <p class="school">Linux Professional Institute</p>
+              <p class="country">Nigeria</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience">
+          <h1>Experience</h1>
+          <div class="list">
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> Present</p>
+              <h2 class="title">Co-founder/CTO</h2>
+              <p class="school">www.ijuhomes.com</p>
+              <p class="country">Nigeria</p>
+            </div>
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> 2019</p>
+              <h2 class="title">Government Relation Intern</h2>
+
+              <p class="school">Addax Petroleum Development, Abuja</p>
+              <p class="country">Nigeria</p>
+            </div>
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> 2018</p>
+              <h2 class="title">Quality Assurance Intern</h2>
+              <p class="school">OVH Energy Marketing, Lagos</p>
+              <p class="country">Nigeria</p>
+            </div>
+            <div class="list-item">
+              <p class="date"><i class="fa fa-calendar-alt"></i> 2015</p>
+              <h2 class="title">Computer Repair Technician</h2>
+
+              <p class="school">BC Tech computers, Ibadan</p>
+              <p class="country">Nigeria</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about-me" class="about-me">
+      <div class="image">
+        <img src="./image/20200309_160528.jpg" width="300px" alt="" />
+      </div>
+      <div class="text">
+        <h1>About Me</h1>
+        <p>
+          I am passionate about software Development. I want to build products
+          that will make the world a better place. I believe that there is a lot
+          we can do if we can study well enough.
+        </p>
+        <a href="mailto:ayobamiu@gmail.com"><button>Hire Me</button></a>
+        <a
+          href="https://drive.google.com/file/d/1ud3FLEZ95kPRyHBFtb_9gFzRBC7ZfXH9/view?usp=drivesdk"
+          download
+          ><button>Download CV</button></a
+        >
+      </div>
+    </div>
+    <div id="my-services" class="my-services">
+      <h1 class="white">What I Do</h1>
+      <div class="list">
+        <div class="item">
+          <h1>Web Development</h1>
+          <p>
+            Developing a website for the Internet and Intranet. Range from
+            Developing a simple static page of plain text to complex web-based
+            internet applications, electronic businesses, and social network
+            services
+          </p>
+          <p><a href="https://github.com/Ayobamiu">Learn more &rarr;</a></p>
+        </div>
+      </div>
+    </div>
+    <div id="blogs-on-medium" class="blogs-on-medium">
+      <h1>Blogs On Medium</h1>
+      <div class="list">
+        <div class="item">
+          <img src="./image/w3logo.jpg" width="100%" alt="" />
+          <h2>
+            <a href="https://link.medium.com/kd6ARfWjB8"
+              >Semantic HTML and web Accessibility</a
+            >
+          </h2>
+          <p>
+            Picture of semantically incorrect HTML vs semantically correct
+            HTML..
+          </p>
+          <p>Aug 2, 2020 <i class="fa fa-comment"></i>5 Comments</p>
+        </div>
+        <div class="item">
+          <img src="./image/mobile_computer.jpg" width="100%" alt="" />
+          <h2>
+            <a href="https://link.medium.com/NfQHKj5DH8"
+              >I met a life partner on twitter, her name Genesys.</a
+            >
+          </h2>
+          <p>
+            I've always been fascinated by how much a computer can do. The first
+            time I touched a computer was when a friend brought one to my...
+          </p>
+          <p>Jul 5, 2020 <i class="fa fa-comment"></i>18 Comments</p>
+        </div>
+      </div>
+    </div>
+    <div class="foot">
+      <p>&copy; Usman 2020</p>
+      <div class="social-media">
+        <a href="https://m.facebook.com/ayobami.uthman"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com/ayobamiusman?s-09"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www/linkedin.com/in/usman-ayobami-3a60a182"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Ayobamiu"><i class="fab fa-github"></i></a>
+        <a href="ayobamiu@gmail.com"><i class="fab fa-google"></i></a>
+        <a href="08036137042"><i class="fa fa-phone"></i></a>
+        <i onclick="printPage()" class="fa fa-print"></i>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
