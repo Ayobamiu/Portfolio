@@ -72,7 +72,7 @@ p{
 .test-toggle li {
   display: block;
   margin: 10px 20px;
-  font-size: 1.3rem;
+  font-size: 0.7rem;
 }
 .test-toggle .toggle {
   order: 1;
@@ -80,11 +80,12 @@ p{
 .test-toggle .item {
   order: 3;
   width: 100%;
-  display: none;
+  /* display: none;*/
 }
 .active .item {
   display: block;
 }
+/*
 @media screen and (min-width: 960px) {
   .test-toggle {
     align-items: flex-start;
@@ -104,6 +105,7 @@ p{
     display: none;
   }
 }
+*/
 /* test-toggle */
 
 .hello .text {
