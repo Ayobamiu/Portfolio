@@ -65,7 +65,7 @@ p{
   padding: 0 10px;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+ /* flex-wrap: wrap; */
   justify-content: space-between;
   align-items: center;
 }
