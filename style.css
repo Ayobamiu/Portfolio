@@ -58,6 +58,7 @@ p{
   background: url("./image/pexels-mitchell-luo-3694708.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 /* test-toggle */
 .test-toggle {
